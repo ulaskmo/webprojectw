@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { MyApiService } from '../my-api.service';
 
 @Component({
+  standalone: true,
   selector: 'app-exchange-rate',
   templateUrl: './exchange-rate.component.html',
   styleUrls: ['./exchange-rate.component.css']
